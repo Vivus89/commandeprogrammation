@@ -1,0 +1,8 @@
+utiliser choco
+choco update nodejs
+
+utiliser power shell
+
+npm-windows-upgrade
+
+choisir la mise à jour.

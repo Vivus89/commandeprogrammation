@@ -1,0 +1,100 @@
+angular cli ligne de commande
+
+ng generate component HomeAdmin --module ./admin/admin.module.ts
+
+site :
+
+https://www.codeofaninja.com/2016/12/angular-crud-tutorial.html
+https://www.sitepoint.com/angular-2-tutorial/
+http://adrianmejia.com/blog/2016/10/01/Angular-2-Tutorial-Create-a-CRUD-App-with-Angular-CLI-and-TypeScript/
+https://www.codeofaninja.com/2016/12/angular-crud-tutorial.html
+https://www.youtube.com/watch?v=3mIpWE7VV8A
+https://www.concretepage.com/angular-2/angular-4-crud-example
+
+https://www.djamware.com/post/58cf4e1c80aca72df8d1cf7e/tutorial-building-crud-app-from-scratch-using-mean-stack-angular-2
+https://www.djamware.com/post/5a0673c880aca7739224ee21/mean-stack-angular-5-crud-web-application-example
+
+http://www.c-sharpcorner.com/article/angular-5-crud-opration-using-nodeexpressmongo/
+
+https://appdividend.com/2018/01/21/angular-5-crud-tutorial-example-scratch/
+
+http://caitp.github.io/ui-comments/#/
+
+https://www.telerik.com/blogs/create-angular-app-themes-with-bootstrap-4-sass-kendo-ui
+menu :
+https://codepen.io/hadarweiss/pen/WvEXeK?depth=everything&order=popularity&page=6&q=menu+&show_forks=false
+https://codepen.io/vivekmarakana/pen/pjWqEr?depth=everything&order=popularity&page=7&q=menu+&show_forks=false
+
+menu radial:
+https://codepen.io/metaprinter/pen/zwvjNb?q=menu%20circle&order=popularity&depth=everything&show_forks=false
+
+https://codepen.io/lenymo/pen/rwmBGq?q=menu%20%20radial&order=popularity&depth=everything&show_forks=false
+https://codepen.io/ispal/pen/LxjgEj?q=menu%20%20svg%20&order=popularity&depth=everything&show_forks=false
+https://codepen.io/ysoftaoglu/pen/bprwMB?q=menu%20%20circle&order=popularity&depth=everything&show_forks=false
+tableeau
+
+https://codepen.io/team/carbon/pen/pdWjva?depth=everything&order=popularity&page=4&q=menu++svg+&show_forks=false
+https://codepen.io/Chmood/pen/QjRqaj?q=environnement&order=popularity&depth=everything&show_forks=false
+
+https://codepen.io/vincent-inb4/pen/dOQggY?depth=everything&order=popularity&page=5&q=background+anime&show_forks=false
+https://www.thuthuatweb.net/css/tao-menu-voi-hieu-ung-vong-tron-chi-voi-css3.html#64u2y2x2v2t2p274b4w2w284v274x213
+
+https://scripteden.com/15-css-menu/
+
+web design
+
+https://www.wix.com/website-template/view/html/2102
+https://fr.wix.com/blog/2017/12/18/les-grandes-tendances-web-design-de-2018/
+
+site gif:
+
+https://www.blogdumoderateur.com/trouve-gif-anime/
+
+javascript à utiliser
+
+turbolink
+
+animejs
+gsap
+
+http://www.webdesignertrends.com/2015/06/25-ressources-css-javascript/
+https://codepen.io/kenjiSpecial/pen/wavooR
+
+
+http://scrollmagic.io/
+https://codyhouse.co/gem/3d-folding-panel/
+
+https://maxwellito.github.io/vivus/
+
+velocity.js
+bodymovin
+https://rentberry.cryptonomos.com/fr/
+
+bright
+real estate
+parallax
+https://www.awwwards.com/sites/rentberry-ico--
+
+https://www.awwwards.com/sites/terraleads
+createjs
+
+three.js
+https://www.alsacreations.com/tuto/lire/1572-webgl-3d-three-canvas-threejs.html
+https://www.codeseek.co/russellk/particles---three-js-amp-anime-js-PjKVxw
+
+timelinejs
+
+https://codepen.io/madcat/pen/aNbayb?depth=everything&order=popularity&page=2&q=timeline+animation&show_forks=false
+
+https://codepen.io/itopizarro/pen/bLjypP?depth=everything&order=popularity&page=4&q=timeline+animation&show_forks=false
+
+https://codepen.io/juanrules/pen/vxXZEo?q=timeline%20js&order=popularity&depth=everything&show_forks=false
+
+arbre de vie ying yang
+
+https://bl.ocks.org/nascif/25aaeda463c8b666e6ad
+https://codepen.io/Anthelmed/pen/jaqOgX?q=tree%20of%20life&order=popularity&depth=everything&show_forks=false
+https://codepen.io/natewiley/pen/PPyBJg?q=wisdom&order=popularity&depth=everything&show_forks=false
+
+exemple
+https://codepen.io/tutsplus/pens/popular/19/

@@ -1,0 +1,28 @@
+
+django-admin startproject mysite projet
+python manage.py startapp polls creation de l'application polls
+python manage.py runserver
+python manage.py startapp
+
+#fichier settings
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'DB_NAME',
+        'USER': 'DB_USER',
+        'PASSWORD': 'DB_PASSWORD',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+}
+
+
+python manage.py makemigrations polls
+
+En exécutant makemigrations, vous indiquez à Django que vous avez effectué des changements à vos modèles (dans ce cas, vous en avez créé) et que vous aimeriez que ces changements soient stockés sous forme de migration.
+
+python manage.py sqlmigrate polls 0001
+
+La commande sqlmigrate n’exécute pas réellement la migration dans votre base de données - elle se contente de l’afficher à l’écran de façon à vous permettre de voir le code SQL que Django pense nécessaire. C’est utile pour savoir ce que Django s’apprête à faire ou si vous avez des administrateurs de base de données qui exigent des scripts SQL pour faire les modifications.
+Si cela vous intéresse, vous pouvez aussi exécuter python manage.py check; cette commande vérifie la conformité de votre projet sans appliquer de migration et sans toucher à la base de données.

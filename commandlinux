@@ -1,0 +1,144 @@
+https://doc.ubuntu-fr.org/clamav
+http://www.forum-orange.com/viewtopic.php?pid=330980 tuto pour sssh
+https://doc.ubuntu-fr.org/encfs
+https://doc.ubuntu-fr.org/securite
+https://doc.ubuntu-fr.org/openvas
+
+sudo su mode superutilisateur
+
+mise à jour de base :sudo apt-get update && sudo apt-get upgrade -y
+
+pour mac :
+brew install clamav
+$ cd /usr/local/etc/clamav
+$ cp freshclam.conf.sample freshclam.conf
+Open freshclam.conf and comment the "Example" line:
+
+# Comment or remove the line below.
+# Example
+Update database:
+
+$ freshclam
+Run scan on all your files:
+
+$ clamscan -r --bell -i /
+
+pour linux
+
+clamscan -r / > /tmp/scan.txt
+sudo clamscan --bell -r -i --log=/var/log/clamav/virus.log /mnt/c/
+mac et linux commande pour déplacer vers les quarantaines
+clamscan -r --move=/home/USER/VIRUS /
+ clamscan -r --move=/mnt/c/Users/Admin/Documents/virus /
+command pour supprimer les fichiers temporaires windows :
+
+Win+R
+Dans le champ Ouvrir saisissez %TEMP% et cliquez sur ОК.
+Appuyez sur Ctrl + A sur le clavier pour sélectionner tous les fichiers dans le dossier qui s'ouvre.
+Appuyez sur Suppr (ou Delete) sur le clavier pour supprimer les fichiers.
+
+
+Quit out of any actively open Mac apps
+Go to the Finder in Mac OS
+Hold down the SHIFT key (in Sierra) or OPTION / ALT key (Earlier) and pull down the “Go” menu in the Finder
+Choose “Library” from the Go menu options
+Once inside the Library folder, find and open the “Caches” folder
+Choose which caches and temporary files to clear, you can selectively choose specific app caches and temporary files to clean*, or select them all, then place those cache items into the Trash
+Empty the Trash in Mac OS as usual to clear those cache and temporary files from the Mac
+
+monter cle usb:
+sudo mount  /dev/sda1 /mnt
+
+sudo fdisk -l
+
+disque dur vide linux dd if=/dev/zero of=/dev/sda bs=512 count=1
+
+sudo mkdir /mnt/d
+$ sudo mount -t drvfs D: /mnt/d : windows
+$ sudo mount -t vfat /dev/sda1 /mnt/cle : linux ou debian
+To safely unmount
+
+$ sudo umount /mnt/d : windows
+$ sudo umount /mnt/cle : linux ou debian
+You can also mount network shares without smbfs:
+
+$ sudo mount -t drvfs '\\server\share' /mnt/share
+
+pour voir la version linux : $ lsb_release -a
+
+Nagios:
+
+rendre disponible nagios:
+sudo systemctl enable /etc/systemd/system/nagios.service
+sudo systemctl start nagios
+/etc/init.d/apache2 restart
+/etc/init.d/nagios start
+/etc/init.d/nagios stop
+
+Raspberian :
+sudo apt update
+sudo apt dist-upgrade
+arreter le raspebrian:
+sudo shutdown -h now
+
+le code de retour :
+echo $? permet de voir les erreurs dans une commande
+
+ajout de texte fin
+
+echo "txt" >> chemin/txt.txt
+
+La syntaxe est très simple, il suffit de désigner la ligne avant laquelle doit être insérée notre nouvelle ligne, soit par son numéro correspondant, soit par un motif. Dans le cas d'un motif une ligne sera insérée avant chaque ligne comportant ledit motif.
+sed "16i\Notes : La négation s'obtient avec un point d'exclamation ! \n " fichier.txt : avec numerotation de ligne
+sed "/Conclusion/i\Notes : La négation s'obtient avec un point d'exclamation ! \n" fichier.txt : avec motif
+
+logfile='report.txt'
+
+log () {
+    if [ -z "$1" ]; then
+        tee -a "$logfile"
+    else
+        printf '%s\n' "$@" | tee -a "$logfile"
+    fi
+}
+
+log "some message"
+log "some other message"
+log "multi" "line" "output"
+
+{
+    cat <<LETTER
+Dear Sir,
+
+It has come to my attention, that a whole slew of things may be
+collected and sent to the same destination, just by using a single
+pipe. Just use { ... } | destination
+
+Sincerely, $LOGNAME
+LETTER
+
+    cat <<THE_PS
+PS.
+Here's the output of "ls -l":
+THE_PS
+
+    ls -l
+
+    echo "LOL"
+
+} | log
+
+
+windows réparer une cle ligne de commande:
+
+cmd en executant administrateur
+
+diskpart
+
+list-disk
+
+select disk num (mettre un numero)
+
+clean
+
+create partition primary

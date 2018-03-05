@@ -1,0 +1,18 @@
+use DATABASE_NAME create databas
+To check your currently selected database, use the command db
+If you want to check your databases list, use the command show dbs.
+mongoimport --db dbName --collection collectionName --file fileName.json import document db
+db.movie.insert({"name":"tutorials point"}) creer databases
+
+
+https://www.supinfo.com/articles/single/2149-bien-commencer-avec-mongodb
+
+relation : entre document comme schéma:
+https://docs.mongodb.com/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/
+
+superutilisateur
+https://stackoverflow.com/questions/22638258/create-superuser-in-mongo
+
+mongodb://Vivus:Novembre11@host:27017/cardstat
+
+https://stackoverflow.com/questions/41342723/using-passport-isauthenticated-to-check-multiple-user-roles-in-nodejs

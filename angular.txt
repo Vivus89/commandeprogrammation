@@ -1,0 +1,64 @@
+https://javascript.developpez.com/faq/javascript/?page=Table
+https://www.developpez.net/forums/d334611/webmasters-developpement-web/javascript-ajax-typescript-dart/javascript/suppression-ligne-d-tableau/
+https://www.grafikart.fr/forum/topics/16379
+https://blog.zenika.com/2013/05/22/angularjs-getting-started/
+https://github.com/Swiip/yeoman-angular/blob/master/README.md
+
+tableau modification suppresion de ligne angular js
+http://www.partage-it.com/comment-utiliser-les-services-resource-avec-angularjs/
+
+https://evdokimovm.github.io/javascript/nodejs/mongodb/expressjs/2016/07/17/Connect-Save-and-Find-Data-in-MongoDB-with-NodeJS-and-ExpressJS.html
+
+utilisation de mongodb avec angularjs
+https://www.w3schools.com/nodejs/nodejs_mongodb_query.asp
+
+authentication angular
+https://medium.com/opinionated-angularjs/techniques-for-authentication-in-angularjs-applications-7bbf0346acec
+https://groups.google.com/forum/?fromgroups=#!searchin/angular/authentication/angular/POXLTi_JUgg/VwStpoWCPUQJ
+https://github.com/alarv/ng-login � utiliser
+https://stackoverflow.com/questions/33466350/complete-login-form-example-with-angularjs
+https://github.com/fnakstad/angular-client-side-auth
+https://medium.com/opinionated-angularjs/techniques-for-authentication-in-angularjs-applications-7bbf0346acec à utiliser
+http://www.journaldunet.com/web-tech/developpement/1202429-angularjs-comment-gerer-des-authentifications-sur-une-meme-page-d-application/ franaçais utiliser ausssi
+
+utilisation role :
+http://arthur.gonigberg.com/2013/06/29/angularjs-role-based-auth/
+https://stackoverflow.com/questions/44922010/role-based-authorisation-in-angular-js
+http://www.stefanoscerra.it/permission-based-auth-system-in-angularjs/
+http://arthur.gonigberg.com/2013/06/29/angularjs-role-based-auth/
+https://stackoverflow.com/questions/44922010/role-based-authorisation-in-angular-js
+
+
+authentification passport mongodb
+https://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619 � utiliser
+https://github.com/tutsplus/passport-mongo/blob/master/routes/index.js
+https://github.com/hisk/james-auth/blob/master/app/config.js
+http://www.stefanoscerra.it/permission-based-auth-system-in-angularjs/
+
+ng-include
+
+https://www.codementor.io/ethanet/mongodb-express-angularjs-1-6-and-node-js-mean-part-2-ayg26wsza
+https://github.com/sahat/satellizer
+
+multiple vue
+
+http://www.funnyant.com/angularjs-ui-router/
+
+https://medium.com/opinionated-angularjs/techniques-for-authentication-in-angularjs-applications-7bbf0346acec
+https://stackoverflow.com/questions/32012367/how-to-submit-a-form-using-js-node-mongo-and-express � utiliser
+
+code
+npm install requirejs --no-optional --save
+
+utilisation express
+https://coderwall.com/p/ww38iq/angular-and-express-setup
+
+utilisation mongodb express angular
+http://passportjs.org/
+
+https://gist.github.com/LeeHyungGeun/5933736
+
+<script src="scripts/routingConfig.js"></script>
+  <script src="scripts/services.js"></script>
+  <script src="scripts/controllers.js"></script>
+  <script src="scripts/directives.js"></script>
